@@ -10,3 +10,14 @@ class Cola():
         Añadimos a los clientes al final de la cola según van llegando.
         '''
         self.items.append(cliente)
+    
+    def is_vacia(self):
+        '''
+        Nos muestra si la cola de clientes está vacía o no.
+        '''
+        if len(self.items) == 0:
+            return True
+        return False
+    
+    def len_cola(self):
+        return len(self.items)
