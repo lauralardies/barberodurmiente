@@ -5,7 +5,6 @@ from barbero import barbero
 from cliente import cliente
 
 def main():
-    global cola
 
     context = zmq.Context()
 
